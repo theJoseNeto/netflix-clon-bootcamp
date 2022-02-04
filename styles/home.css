@@ -1,0 +1,137 @@
+body{
+    height: 300vh;
+    overflow-x: hidden;
+}
+
+header .menu-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding:10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: 
+    linear-gradient(
+        rgb(0, 0, 0),
+        rgba(0, 0, 0, 0.309)80%
+        ), 
+        url('../assets/images/bg.jpg');
+
+    background-size: cover;
+    border-bottom: solid 5px #3c3a3a;
+}
+.container form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} 
+.container input{
+    width: 400px;
+    height: 60px;
+    padding-left: 20px;
+}
+
+.container button{
+    margin:0;
+    border-radius: 0;
+    font-size: 25px;
+    height: 60px;
+    margin-left:0;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+}
+
+.input-container{
+    width: 45%;
+    text-align:center;
+}
+.input-container h1{
+    width: 100%;
+    margin-bottom:40px;
+    font-size: 45px;
+}
+
+.input-container p{
+    font-size: 20px;;
+}
+
+.input-container form{
+    margin-top:30px;
+}
+
+.main-content-2{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.row-1{
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.row-1 .cta-text{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+
+}
+
+.card-tv{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-tv img{
+
+    margin-top: 150px;
+    position: absolute;
+    top: -35%;
+    left: -15%
+
+}
+
+.card-tv video{
+    margin-top: 110px;
+}
+
+.card-mobile img{
+    width: 600px;
+}
+
+.row-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.row-2 .cta-text p{
+    font-size: 20px;
+}
+.row-2 .cta-text h1{
+    margin-bottom: 10px;
+}
+.row-2 .cta-text{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+
